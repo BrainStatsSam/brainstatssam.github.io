@@ -475,7 +475,8 @@ a[data-fancybox] img {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin-top: 0px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 #profile .network-icon li {
@@ -500,7 +501,7 @@ a[data-fancybox] img {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 ul.ul-interests li {
