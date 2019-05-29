@@ -18,8 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
   
-  
-  
+   
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair&#43;Display:400,700%7cFauna&#43;One">
   <link rel="stylesheet" href="/styles.css">
   
@@ -155,6 +154,8 @@
           
           <li>Multiple Testing</li>
           
+          <li>Selective Inference</li>
+          
         </ul>
       
       <div cla="col-sm-7">
@@ -164,16 +165,24 @@
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD in Statistical Science, Oxford-Warwick Statistics Programme, 2020</p>
-              <p class="institution">University of Warwick, UK</p>
+              <p class="course">PhD in Statistical Science, Oxford-Warwick Statistics Programme, 2016-</p>
+              <p class="institution">Deparment of Statistics at the University of Oxford, UK</p>
             </div>
           </li>
           
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">BSc &amp; MSc in Econometrics &amp; Operations Research, 2016</p>
-              <p class="institution">Maastricht University, NED</p>
+              <p class="course">Masters in Mathematics (Part III) 2015-2016</p>
+              <p class="institution">University of Cambridge UK</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Mathematics Tripos 2012-2015</p>
+              <p class="institution">University of Cambridge UK</p>
             </div>
           </li>
           
@@ -183,30 +192,30 @@
 
   </div>
 
-	
-
   <div class="col-xs-12 col-md-4 section-heading">
 		  
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p><h2 id="news">News</h2>
-
-<ul>
-<li>I am excited to be working with Amazon Cambridge&rsquo;s Machine Learning Research group 01/08/19-01/12/19 under the supervision of <a href="https://tomdiethe.com/" target="_blank">Tom Diethe</a></li>
-<li>I am delighted to be collaborating with <a href="https://scholar.google.co.uk/citations?user=KwEOawwAAAAJ&amp;hl=en" target="_blank">David Dunson</a> at Duke University from 01/03/19-01/06/19</li>
-<li>I am thrilled to be the first UK-based doctoral researcher to have been selected into the <a href="https://research.fb.com/programs/fellowship/" target="_blank">Facebook Fellowship</a> programme, see <a href="https://tomdiethe.com/" target="_blank">here</a> for a press release by the Alan Turing Institute.</li>
-</ul>
-
 <h2 id="about-me">About me</h2>
 
-<p>I am a doctoral researcher working at the nexus of computer science and statistics within the Oxford-Warwick Statistics Programme (OxWaSP) supervised by <a href="https://warwick.ac.uk/fac/sci/dcs/people/theo_damoulas/" title="Theodoros Damoulas' Warwick page" target="_blank">Theodoros Damoulas</a>. I am also a part of the <a href="http://wmlg.io/" target="_blank">Wariwck Machine Learning Group</a>, visiting scholar at Duke University as well as a visiting researcher at the Alan Turing Institute for Data Science and AI in London where I am affiliated with the <a href="https://www.turing.ac.uk/research_projects/clean-air-london/" title="Clean Air London ATI project description" target="_blank">London air quality project</a> to support London&rsquo;s Major&rsquo;s office with data-driven policy. More information can be found in my (outdated) <a href="/docs/other/cv.pdf">CV</a>.</p>
+<p>I am a 3rd year PhD student at the Department of Statistics at the University of Oxford on the Oxford-Warwick Statistics Programme (OxWaSP) supervised by <a href="www.nisox.org" title="Thomas Nichols' Homepage" target="_blank">Thomas E. Nichols</a> and 
+<a href="https://scholar.google.co.uk/citations?user=zBx_e0EAAAAJ&hl=en" title="Armin Schwartzman's Google Scholar Page" target="_blank">Armin Schwartzman</a>. I am also affliated with the 
+Big Data Institute. I work on developing statistical methods with applications in Neuroimaging, Astrophysics and beyond. More information can be found in my <a href="/docs/other/cv.pdf">CV</a>.</p>
+
 
 <h2 id="research-interests">Research Interests</h2>
 
-<p>My interests revolve around scalable inference methods for spatio-temporal data streams that can run in real time. Inference for complex dynamical systems generating high-dimensional structured data is typically complicated by non-stationarity, changepoints, model uncertainty, misspecification and outliers. While the analysis of real-world data streams almost always needs to address these complications, tackling them jointly leads standard likelihood-based learning rules to break down. My mission is to work on alternative learning rules derived from generalized Bayes theorems which can solve this collection of problems jointly, efficiently and effortlessly. A more detailed overview over what inspires me is available <a href="/docs/other/proposal.pdf">here</a>.</p>
+<p>My interest in Random Field theory stems from the huge potential for application and the beauty of the underlying theory. 
+Recently this has been a matter of controversy in the neuroimaging community, primarily because random field theory methods have been applied widely without proper regard for the underlying assumptions.
+However it turns out that a number of these assumptions are unnecessary and can be dropped (by modifiying the theory) and there is recent (and ongoing) work on RFT methods that 
+provides correct control of the false positive rates and allows for better more powerful inference. RFT additionally has applications beyond just null hypothesis testing and can be used to infer on the underlying signal.
+
+In general I am keen to encourage rigorous testing of statistical methods in brain imaging using large open datasets. My work on Selective Inference has looked at providing selection corrected estimates for the effect size. This has been tested using a validation framework that uses data from the UK biobank and involves setting aside a large number of subjects to calculate a ground truth and dividing the remaining subejcts into small groups (of sizes representative of those used in typical brain imaging studies) in order to compare methods. It is vital that existing and emerging statistical methods be subject to this type of validation so that we can ensure that our methods work as well as is claimed. For more details see our preprint.
+
 </p>
-    <h2> Recent Publications </h2>
+</p>
+    <h2> Recent Research </h2>
 
     
       
