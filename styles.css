@@ -332,7 +332,7 @@ a[data-fancybox] img {
 }
 
 .home-section:first-of-type {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .home-section:nth-of-type(even) {
@@ -344,7 +344,7 @@ a[data-fancybox] img {
     padding: 60px 0 60px 0;
   }
   .home-section:first-of-type {
-    padding-top: 40px;
+    padding-top: 20px;
   }
 }
 
