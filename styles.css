@@ -494,8 +494,16 @@ a[data-fancybox] img {
   font-size: 2rem;
 }
 
-ul.ul-interests li {
+#profile ul.ul-interests {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
   margin-top: 15px;
+}
+
+ul.ul-interests li {
   font-size: 0.9rem;
 }
 
