@@ -476,7 +476,7 @@ a[data-fancybox] img {
   list-style: none;
   padding: 0;
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: -30px;
 }
 
 #profile .network-icon li {
