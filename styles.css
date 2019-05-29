@@ -342,9 +342,11 @@ a[data-fancybox] img {
 @media screen and (max-width: 768px) {
   .home-section {
     padding: 60px 0 60px 0;
+    animation: intro 0.3s both;
+  	animation-delay: 0.15s;
   }
   .home-section:first-of-type {
-    padding-top: 20px;
+    padding-top: 10px;
   }
 }
 
@@ -476,7 +478,7 @@ a[data-fancybox] img {
   list-style: none;
   padding: 0;
   margin-top: 15px;
-  margin-bottom: -30px;
+  margin-bottom: -60px;
 }
 
 #profile .network-icon li {
